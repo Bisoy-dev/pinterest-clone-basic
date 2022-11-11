@@ -1,0 +1,12 @@
+C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\bin\Debug\net7.0\PinterestClone.Infrastructure.deps.json
+C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\bin\Debug\net7.0\PinterestClone.Infrastructure.dll
+C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\bin\Debug\net7.0\PinterestClone.Infrastructure.pdb
+C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\PinterestClone.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\PinterestClone.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\PinterestClone.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\PinterestClone.Infrastructure.AssemblyInfo.cs
+C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\PinterestClone.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\PinterestClone.Infrastructure.dll
+C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\refint\PinterestClone.Infrastructure.dll
+C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\PinterestClone.Infrastructure.pdb
+C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\ref\PinterestClone.Infrastructure.dll

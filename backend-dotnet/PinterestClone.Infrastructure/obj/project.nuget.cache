@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "yZIKkrzlD1adZSM0vcoMdKzIVIFYncol5Bw9d2yFlJHcViFIYvV7dCTniY4WyJIjKTH3o3n34J19elDOG4gT5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\soybi\\Projects\\Personal\\pinterest-clone-basic\\backend-dotnet\\PinterestClone.Infrastructure\\PinterestClone.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\soybi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\soybi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\soybi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\soybi\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

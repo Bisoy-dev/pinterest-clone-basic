@@ -114,8 +114,12 @@ const like = asyncHandler(async (req, res) => {
     }
     
     const pin = await Pin.findById(pinId)
+    if(!pin){
+        res.status(400)
+        throw new Error('Pin not found!')
+    }
     let pinLikes = new Set(pin.likes)
-    const contain = pinLikes.has(userId)
+    const contain = pinLikes.has(user.id)
     console.log(pinLikes)
     // if(pinLikes.has(userId)){
     //     pinLikes.delete(userId)
@@ -126,8 +130,10 @@ const like = asyncHandler(async (req, res) => {
     //     await Pin.updateOne({ _id : pinId }, 
     //         { $addToSet : { likes : [...userId] } })
     // }
-    await Pin.updateOne({ _id : pinId }, 
-        { $addToSet : { likes : [...userId] } })
+    // await Pin.updateOne({ _id : pinId }, { $push : { "likes" : userId } })
+    // await Pin.updateOne({ _id : pinId }, 
+    //     { $addToSet : { likes : [...userId] } })
+    
     
     console.log(Array.from(pinLikes))
     //await pin.save();
