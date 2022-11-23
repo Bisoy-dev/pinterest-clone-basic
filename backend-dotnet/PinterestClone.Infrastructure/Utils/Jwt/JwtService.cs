@@ -1,17 +1,24 @@
 using System.Text;
-using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.Extensions.Configuration;
 
 namespace PinterestClone.Infrastructure.Utils.Jwt;
 
 
 public class JwtService : IJwtService
 {
+    private readonly IConfiguration configuration;
+
+    public JwtService(IConfiguration configuration)
+    {
+        this.configuration = configuration;
+    }
     public string Generate(string userId, string email)
     {
         var signingCredentials = new SigningCredentials(
-            new SymmetricSecurityKey(Encoding.UTF8.GetBytes("pinteres-super-secret-key")),
+            new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Secret"]!)),
             SecurityAlgorithms.HmacSha256
         );
 
@@ -23,7 +30,7 @@ public class JwtService : IJwtService
         };
 
         var securityToken = new JwtSecurityToken(
-            issuer : "PinterestCloneBasic",
+            issuer : configuration["Jwt:Issuer"],
             expires : DateTime.UtcNow.AddMinutes(60),
             claims : claims,
             signingCredentials : signingCredentials

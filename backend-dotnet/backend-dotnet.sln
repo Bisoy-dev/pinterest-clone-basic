@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinterestClone.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinterestClone.Contracts", "PinterestClone.Contracts\PinterestClone.Contracts.csproj", "{ADE51B8E-C7EA-4775-9FBC-DB21EB20C644}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinterestClone.Application", "PinterestClone.Application\PinterestClone.Application.csproj", "{B943243F-1952-4C08-9EF6-5F4D5BA12FB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{ADE51B8E-C7EA-4775-9FBC-DB21EB20C644}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE51B8E-C7EA-4775-9FBC-DB21EB20C644}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE51B8E-C7EA-4775-9FBC-DB21EB20C644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B943243F-1952-4C08-9EF6-5F4D5BA12FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B943243F-1952-4C08-9EF6-5F4D5BA12FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B943243F-1952-4C08-9EF6-5F4D5BA12FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B943243F-1952-4C08-9EF6-5F4D5BA12FB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

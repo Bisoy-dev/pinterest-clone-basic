@@ -1,21 +1,24 @@
-using Microsoft.AspNetCore.Identity;
-using PinterestClone.Infrastructure;
-using PinterestClone.Infrastructure.Data.UserIdentity;
+global using PinterestClone.Infrastructure;
+using PinterestClone.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddInfrastructure(builder.Configuration);
-builder.Services.AddIdentity<IdentityUser, IdentityRole>(opt => 
+builder.Services.AddInfrastructure(builder.Configuration)
+    .AddApplication();
+
+const string CORS_POLICY = "CORSPOL";
+builder.Services.AddCors(opt => 
     {
-        opt.Password.RequireNonAlphanumeric = false;
-        opt.Password.RequireUppercase = false;
-        opt.Password.RequiredLength = 5;
-        opt.Password.RequireNonAlphanumeric = false;
-    })
-    .AddEntityFrameworkStores<UserDbContext>();
+        opt.AddPolicy(CORS_POLICY, option => 
+            option.SetIsOriginAllowed(_ => true)
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials());
+    });
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -32,6 +35,9 @@ if (app.Environment.IsDevelopment())
 
 // app.UseHttpsRedirection();
 
+app.UseCors(CORS_POLICY);
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

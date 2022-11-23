@@ -25,4 +25,17 @@ public class UploadService : IUploadService
         var result = await _cloudinary.UploadAsync(uploadParams);
         return result;
     }
+
+    public async Task<List<ImageUploadResult>> Images(IFormFileCollection files)
+    {
+        var result = new List<ImageUploadResult>();
+
+        foreach(var file in files)
+        {
+            var uploadedResult = await Image(file);
+            result.Add(uploadedResult);
+        }
+
+        return result;
+    }
 }

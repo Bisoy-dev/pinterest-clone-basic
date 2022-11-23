@@ -10,5 +10,3 @@ C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestC
 C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\refint\PinterestClone.Infrastructure.dll
 C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\PinterestClone.Infrastructure.pdb
 C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\ref\PinterestClone.Infrastructure.dll
-C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\bin\Debug\net7.0\PinterestClone.Infrastructure.runtimeconfig.json
-C:\Users\soybi\Projects\Personal\pinterest-clone-basic\backend-dotnet\PinterestClone.Infrastructure\obj\Debug\net7.0\PinterestClone.Infrastructure.genruntimeconfig.cache

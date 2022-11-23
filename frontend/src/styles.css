@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.pin-container{
+    width: 45vh;
+    height: 80vh;
+}
+.pin{
+    width: 100%;
+    height: 95%;
+    border-radius: 20px;
+}
+.user{
+    padding-bottom: 2vh;
+}
+
+

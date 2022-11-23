@@ -6,4 +6,5 @@ namespace PinterestClone.Infrastructure.Utils.Cloudinary;
 public interface IUploadService
 {
     Task<ImageUploadResult> Image(IFormFile file);
+    Task<List<ImageUploadResult>> Images(IFormFileCollection files);
 }

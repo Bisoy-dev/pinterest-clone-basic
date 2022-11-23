@@ -1,0 +1,28 @@
+.pin{
+    width: 45vh;
+    height: 55vh;
+}
+
+.body-container{
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-top: 3vh;
+    margin-top: 10vh;
+}
+
+.container{
+    /* padding: 30px; */
+    display: grid;
+    margin: 0 auto;
+    max-width: 100%;
+    grid-gap: 5vh;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    place-items: center;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    /* grid-auto-rows: 200px;
+    grid-auto-flow: dense; */
+}
+
+/* app-header{
+    
+} */
